@@ -1,0 +1,33 @@
+{
+  "name": "unit-tests-jest",
+  "version": "1.0.0",
+  "description": "Example to unit tests using Jest",
+  "main": "index.js",
+  "author": "ugioni",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^30.3.0",
+<<<<<<< HEAD
+    "rimraf": "^6.1.3",
+=======
+>>>>>>> 21626a8f0f273856b7ba7d33d6f4a42512340373
+    "mkdirp": "^3.0.1"
+  },
+  "scripts": {
+    "clean": "rimraf ./coverage && mkdirp ./coverage",
+    "test": "npm run clean && jest",
+    "coverage": "npm run clean && jest --coverage"
+  },
+  "jest": {
+    "coverageReporters": [
+      "lcov",
+      "text"
+    ]
+<<<<<<< HEAD
+=======
+  },
+  "devDependencies": {
+    "rimraf": "^6.1.3"
+>>>>>>> 21626a8f0f273856b7ba7d33d6f4a42512340373
+  }
+}
